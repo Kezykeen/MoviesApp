@@ -1,0 +1,55 @@
+.movie-item {
+  display: flex;
+  align-items: center !important;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+.movie-item.item img {
+  max-width: 200px;
+}
+
+.content {
+  width: 39% !important;
+}
+
+.ui.cards > .card > .content > .header {
+  width: max-content;
+}
+
+.ui.cards > .card > .content > .description {
+  width: 270px;
+}
+
+.ui.cards > .card > .extra {
+  width: 100% !important;
+}
+
+.ui.cards > .card .meta :last-child {
+  width: max-content;
+}
+
+.ui.cards > .card {
+  margin: 0.875em 0.4449em !important;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+.modal-body .modal-description {
+  margin-left: 10px;
+}
+
+.modal-btn {
+  margin-top: 60px;
+}
+
+.modal-btn button:first-of-type {
+  margin: 10px;
+}
